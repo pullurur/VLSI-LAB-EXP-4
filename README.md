@@ -183,32 +183,6 @@ Endmodule
 
 ![image](https://github.com/pullurur/VLSI-LAB-EXP-4/assets/161436550/19dad03b-c351-429e-9c46-683d517c479d)
 
-VERILOG CODE
-module updown(clk,rst,updown,out);
-
-input clk,rst,updown;
-
-output reg[3:0]out;
-
-always@(posedge clk)
-
-begin
-
-if(rst==1)
-
-out=4'b0000;
-
-else if(updown==1);
-
-out=out-1;
-
-end
-
-endmodule
-
-# Output
-
-![image](https://github.com/pullurur/VLSI-LAB-EXP-4/assets/161436550/4b3a41e5-f18d-471b-a338-a9edada18582)
 
 COUNTER
 
